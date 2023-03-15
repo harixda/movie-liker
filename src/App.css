@@ -1,0 +1,149 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background: #8E0E00;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1F1C18, #8E0E00);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  max-width: 100%;
+  color: white;
+
+}
+
+.title {
+  font-family: Lobster;
+  cursor: pointer;
+}
+
+.title a {
+  margin-left: 1rem;
+  /* font-weight: bold; */
+  /* background-color: rgb(6, 14, 14); */
+  color: white;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+.title a:hover {
+  font-weight: bolder;
+}
+
+.link a {
+  padding: 2rem;
+  /* font-weight: bolder; */
+  /* background-color: rgb(6, 14, 14); */
+  color: white;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+.link:hover {
+  transform: scale(1.5);
+}
+
+
+.moviecard {
+  display: grid;
+  /* border: 1px solid red; */
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1.5rem;
+  background: #000000;
+}
+
+.movieitem {
+  width: 150px;
+  background-color: #941d1d;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.movieitem :hover {
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 10px;
+}
+
+
+.movieitem img {
+  width: 150px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+/* .movieitem button {
+  background-color: #f5f1f1;
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 2px;
+  margin-right: 9px;
+  margin-bottom: 9px;
+} */
+
+
+
+.movieitem .name {
+  color: #000;
+  padding-left: 0.8rem;
+  visibility: visible;
+
+}
+
+.movieitem p {
+
+  font-weight: 500;
+  font-weight: bolder;
+  color: #1F1C18
+}
+
+.moviecard .love {
+  margin-bottom: 10px;
+  margin-left: 40px;
+  padding: 0px, 100px;
+  width: 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.searchbar {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: -1px 0px 21px 4px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: -1px 0px 21px 4px rgba(0, 0, 0, 0.54);
+  box-shadow: -1px 0px 21px 4px rgba(0, 0, 0, 0.54);
+
+}
+
+
+input {
+  /* width: 30px; */
+  height: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+
+
+}
+
+
+
+.searchbar button {
+  outline: none;
+  background-color: white;
+  border-radius: 2px;
+  border: none;
+  width: 20px;
+  height: 21px;
+  border-radius: 5px;
+
+}
