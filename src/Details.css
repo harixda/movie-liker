@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    color: white;
+}
+
+.moviedetails {
+    display: flex;
+    line-height: 2rem;
+}
+
+
+.moviedetails .movie_poster img {
+    width: 300px;
+    height: 350px;
+    padding: 2rem;
+}
+
+.movieinfo {
+    padding-top: 2rem;
+}
+
+.movieinfo span {
+    color: rgb(39, 110, 186);
+}
+
+.ratings {
+    display: flex;
+}
+
+.ratings p {
+    padding: 1em;
+}
+
+h4 {
+    color: rgb(190, 26, 26);
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgb(57, 4, 110);
+    }
+
+    .moviedetails {
+        display: block;
+        line-height: 2rem;
+    }
+
+    h1 {
+        padding-bottom: 1rem;
+    }
+
+
+    .movie_poster {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+
+    .movieinfo {
+        padding: 1rem;
+    }
+}
